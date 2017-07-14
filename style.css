@@ -105,6 +105,7 @@
         display: flex;
         justify-content: center;
         align-items: center; 
+        text-align: center;
 	}
     @media only screen and (max-width: 630px) {
         .blocks .block {
@@ -124,15 +125,8 @@
 		flex-direction: column;
 		justify-content: center;
 	}
-    .blocks .info {
-        text-align: center;
-    }
-    .blocks .text {
-         font-size: 18.7px; 
-         font-weight: 300;
-    }
 	.blocks .picture {
-		width: 50%;
+		max-width: 300px; 
 		margin: 0 auto; 
 	}
 	.blocks .links {
