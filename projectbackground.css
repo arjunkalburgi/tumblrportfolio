@@ -1,0 +1,327 @@
+/*
+	on the background being a linear gradient, go to the desired colour on color-hex.com 
+	pick the colour two shades darker for the second colour.
+	OR 
+	use adobe.color.com
+*/
+
+/*encmp100*/
+	.encmp100 {
+		background: #ffc85e; 
+	}
+	#encmp100 {
+		color: rgba(0, 0, 0, 0.6); 
+	}
+	#encmp100 a {
+		color: #004AB2 !important;
+	}
+
+/*hacktime*/
+	.hacktime {
+		background: #16703D; 
+	}
+	#hacktime {
+		color: rgba(199, 199, 199, 0.68); 
+	}
+	#hacktime a {
+		color: rgb(255, 189, 56) !important;
+	}
+
+/*eceweekhacked2017*/
+	.eceweekhacked2017 {
+		background: #53147E;
+	}
+	#eceweekhacked2017 {
+		color: rgba(199, 199, 199, 0.68); 
+	}
+	#eceweekhacked2017 a {
+		color: #C0C0C0 !important;
+	}
+
+/*AUcourses*/
+	.AUcourses {
+		background: #e4c18e; 
+	}
+	#AUcourses {
+		color: rgba(0,0,0,0.5);
+	}
+	#AUcourses a {
+		color: rgba(0,0,0,0.8) !important;
+	}
+
+/*reactlessons*/
+	.reactlessons {
+		background: #ff8f4a; 
+	}
+	#reactlessons {
+		color: rgba(0, 0, 0, 0.9);
+	}
+	#reactlessons a {
+		color: #61DAFB; 
+	}
+
+/*makeover*/
+	.makeover {
+		background: #129EB2/*#3E3C10*/; 
+	}
+	#makeover {
+		color: rgba(255,255,255,0.5); 
+	}
+	#makeover a {
+		color: #ED4F67;
+	}
+
+/*testingproj*/
+	.testingproj {
+		background: #414141/*#216CA3*/; 
+	}
+	#testingproj {
+		color: rgba(255,255,255,0.5);
+	}
+	#testingproj a {
+		color: #1A3D57; 
+	}
+
+/*dbhospitalapp*/
+	.dbhospitalapp {
+		background: /*#749B74*/#F4AF92; 
+	}
+	#dbhospitalapp {
+		color: rgba(0,0,0,0.3);
+	}
+	#dbhospitalapp a {
+		color: #09FDFB;
+	}
+
+/*howtocompe*/
+	.howtocompe {
+		background: #d9e6e0; 
+	}
+	#howtocompe {
+		color: rgba(0,0,0,0.8);
+	}
+	#howtocompe a {
+		color: #1B4610 !important;
+	}
+
+/*dbnormalizerapp*/
+	.dbnormalizerapp {
+		background: /*#F4AF92*/#749B74; 
+	}
+	#dbnormalizerapp {
+		color: rgba(0,0,0,0.3);
+	}
+	#dbnormalizerapp a {
+		color: #09FDFB;
+	}
+
+/*cloudycar*/
+	.cloudycar {
+		background: /*#135FAB*/#e2c3d1; 
+	}
+	#cloudycar {
+		color: #135FAB;  /*#237e7c;*/
+	}
+	#cloudycar a {
+		color: #fff; /*#ffbd38;*/
+	}
+
+/*d3tutorial*/
+	.d3tutorial {
+		background: #7f3ea5/*#f5844b*/; 
+	}
+	#d3tutorial {
+		color: #f5844b !important;
+	}
+	#d3tutorial a {
+		color: #f5844b !important;
+	}
+
+/*C301as1*/
+	.C301as1 {
+		background: #B0BEC5/*#B0AB18*/; 
+	}
+	#C301as1 {
+		color: #4d8e33 !important;
+	}
+	#C301as1 a {
+		color: #4d8e33 !important;
+	}
+
+/*ECEW17*/
+	.ECEW17 {
+		background: #112188; 
+		background-image: url("../img/proj/proj-ecew17.png") no-repeat fixed;
+		background-image: url("../img/proj/proj-ecew17.png") no-repeat fixed, /*#112188*/#040B3B; 
+	}
+	#ECEW17 {
+		color: #ffbd38 !important;
+	}
+	#ECEW17 a {
+		color: #ffbd38 !important;
+	}
+
+/*CEClub*/
+	.CEClub {
+		background: /*#1A450F*/#13330B; 
+	}
+	#CEClub {
+		color: #fff !important;
+	}
+	#CEClub a {
+		color: #fff !important;
+	}
+
+/*pkb*/
+	.pkb {
+		background: /*#222222*/#1b1b1b; 
+	}
+	#pkb {
+		color: #fff !important;
+	}
+	#pkb a {
+		color: #fff !important;
+	}
+
+/*shoutbox2*/
+	.shoutbox2 {
+		background: #e0c6a7/*#A09A92*/; 
+	}
+	#shoutbox2 {
+		color: #663560 !important;
+	}
+	#shoutbox2 a {
+		color: #663560 !important;
+	}
+
+/*dra*/
+	.dra {
+		background: #323232; 
+	}
+	#dra {
+		color: rgba(255,255,255,0.6) !important;
+	}
+	#dra a {
+		color: white !important;
+	}
+
+/*fire*/
+	.fire {
+		background: /*#b3afae*/#984b37; 
+	}
+	#fire {
+		color: black !important;
+	}
+	#fire a {
+		color: black !important;
+	}
+
+/*eceweekhacked2015*/
+	.eceweekhacked2015 {
+		background: #2f355a; 
+	}
+	#eceweekhacked2015 {
+		color: rgba(199, 199, 199, 0.68); 
+	}
+	#eceweekhacked2015 a {
+		color: #ffbd38 !important;
+	}
+
+/*ciao*/
+	.ciao {
+		background: /*#374ca5*/#374ca5; 
+	}
+	#ciao {
+		color: rgba(255,255,255,0.6) !important;
+	}
+	#ciao a {
+		color: white !important;
+	}
+
+/*rdf*/
+	.rdf {
+		background: /*black*/#323232; 
+	}
+	#rdf {
+		color: rgba(255,255,255,0.6) !important;
+	}
+	#rdf a {
+		color: white !important;
+	}
+
+/*reviews*/
+	.reviews {
+		background: /*#2c3e50*/#1e2b38; 
+	}
+	#reviews {
+		color: rgba(255,255,255,0.6) !important;
+	}
+	#reviews a {
+		color: white !important;
+	}
+
+/*senti*/
+	.senti {
+		background: /*#222222*/#3BB873; 
+	}
+	#senti {
+		color: rgba(255,255,255,0.6) !important;
+	}
+	#senti a {
+		color: white !important;
+	}
+
+/*conn4*/
+	.conn4 {
+		background: /*#0088ff*/#0088ff; 
+	}
+	#conn4 {
+		color: rgba(255,255,255,0.6) !important;
+	}
+	#conn4 a {
+		color: white !important;
+	}
+
+/*shoutbox*/
+	.shoutbox {
+		background: /*#283e50*/#283e50; 
+	}
+	#shoutbox {
+		color: rgba(255,255,255,0.6) !important;
+	}
+	#shoutbox a {
+		color: white !important;
+	}
+
+/*tetris*/
+	.tetris {
+		background: /*black*/black; 
+	}
+	#tetris {
+		color: rgba(255,255,255,0.6) !important;
+	}
+	#tetris a {
+		color: white !important;
+	}
+
+/*resnet*/
+	.resnet {
+		background: /*#b7703c*/#9e663c; 
+	}
+	#resnet {
+		color: rgba(255,255,255,0.6) !important;
+	}
+	#resnet a {
+		color: white !important;
+	}
+
+/*runner*/
+	.runner {
+		background: /*#9ec2f4*/#9ec2f4; 
+	}
+	#runner {
+		color: rgba(255,255,255,0.6) !important;
+	}
+	#runner a {
+		color: white !important;
+	}
