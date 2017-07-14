@@ -37,7 +37,7 @@
 /* Text Style */
     * {font-family: 'Raleway', 'Open Sans', 'Helvetica', sans-serif; margin: 0;}
     .upper {text-transform: uppercase;}
-    .title {font-family: 'Montserrat', 'Open Sans', 'Helvetica', sans-serif;}
+    .title {font-family: 'Montserrat', 'Open Sans', 'Helvetica', sans-serif; text-align: center;}
 
     .greentext{color:#007e60;}
     .whitetext{color:#fff;}
@@ -55,60 +55,45 @@
         text-align: center;
     }
 
-/* Top */
-    /* Nav */
-        nav {
-            transition: all 4s ease;
-            background-color: #007e60; 
-        }
-        .nav-links {
-            width: 40% !important; 
-        }
-        @media only screen and (max-width: 770px) {
-            nav {
-                height: 100px;
-            }
-            .nav-links {
-                width: 60% !important; 
-            }
-            .nav-links .nav-link { 
-                font-size: xx-large;
-            }
-        }
-        @media only screen and (max-width: 630px) {
-            .nav-links {
-                width: auto !important; 
-            }
-        }
-        .nav-links .nav-link {
-            width: 20%; 
-            height: 100%;
-            font-size: x-large;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        .nav-links a {
-            width: initial;
-            margin: 0 auto;
-        }
-        .nav-links a img {
-            width: 100%;
-            height: 100%; 
-        }
-    /* Header */
-        header {
-            padding-top: 10%; 
-            max-width: 80%; 
-            margin: 0 auto; 
-            padding-bottom: 10%; 
-            height: 70%;
-        }
+/* Header and Footer */
+    header {
+        margin: 0 auto; 
+        height: 90%; 
+        padding: 15% 0; 
+    }
 
-        @media only screen and (min-width: 760px) and (max-width: 1024px) {
-            header {
-                height: 50%; 
-            }
+    header, #bottom {
+        background: url('https://rawgit.com/askalburgi/tumblrportfolio/master/main.jpg') fixed; 
+        color: #FFF; 
+        background-size: cover;
+        background-position: center;
+    }
+
+/* Figures (Header and Footer) */
+    figure i {
+        font-size: 65px !important;
+        color: #fff;
+    }
+
+    figure.bigcenter i {
+        font-size: 115px !important; 
+    }
+
+    @media only screen and (min-width: 528px) { 
+        figure i { font-size: 95px !important; }
+    }
+
+    figure {
+        text-align: center;
+        margin: 0;
+    }
+
+    /* Header Section - Main Links */
+        header .main_links .main_link figure:hover {
+            border-radius: 60px;
+            box-shadow: 0px 0px 30px 30px #007E60;
+            background-color: #007E60;
+            color: #fff; 
         }
 
 /* Content Blocks */
@@ -160,82 +145,30 @@
         }
     }
 
-/* Footer */
-	#bottom {background: url('../img/dark-bg.jpg') fixed; color: #FFF; background-size: cover;}
-
-    figure i {
-        font-size: 65px !important;
-        color: #007e60;
-    }
-
-    @media only screen and (min-width: 528px) { 
-        figure i { font-size: 95px !important; }
-    }
-
-    figure figcaption {
-        text-align: center;
-    }
-
-    /* Bottom Section - Main Links */
-        #bottom .main_links .main_link figure:hover {
-            border-radius: 60px;
-            box-shadow: 0px 0px 30px 30px white;
-            background-color: white;
-            color: #007E60; 
-        }
-        
-        @media only screen and (min-width: 528px) { 
-            #bottom .main_links .main_link {
-                width: 25% !important;
-                margin-left: auto;
-                left: auto;
-                right: auto;
-            }
-
-            #bottom .main_links .main_link figure {
-                margin: 0px !important;
-            }
-        }
-
-        @media only screen and (max-width: 528px) {
-            #bottom figure.rightside { margin-left: 15px; }
-
-            #bottom figure.leftside { margin-right: 15px; }
-        }
-
-    /* Bottom Section - Quick Links */
-        #bottom .quick_links { margin-bottom: 0px; }
-
-        #bottom a.whitetext:hover {
-            border-radius: 50px; 
-            box-shadow: 0px 0px 15px 15px #007E60; 
-            background-color: #007E60; 
-        }
-
 /* Background Feature */
+    /* Layers */
+        #content { z-index: 4 }
+        #overlay { z-index: 3 }
+        #background { z-index: 2 }
+
+    /* Overlay Pos */
+        #overlay {
+            position: fixed;
+            height: 100%; 
+        }
+        #background, #overlay {
+            width: 100%;
+            top: 0;
+            left: 0;
+        } 
+
     #background {
         transition: all 2s ease;
         mix-blend-mode: soft-light;
-        z-index: 3; 
-    }
-
-    .start {
-        background: url("../img/dark-bg.jpg"); 
     }
 
     #overlay {
-        height: 100%; 
-        width: 100%; 
-        position: absolute;
         pointer-events: none;
-        top: 0; 
-        left: 0;
-        z-index: 0;
         mix-blend-mode: soft-light;
         background: linear-gradient(to bottom right, rgba(255,255,255,0.8), rgba(0,0,0,0.7)); 
-    }
-
-    #outerbox {
-        display: block;
-        position: relative;
     }
