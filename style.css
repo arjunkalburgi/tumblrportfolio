@@ -62,6 +62,10 @@
         padding: 15% 0; 
     }
 
+    header figure.bigcenter img {
+        width: 70%; 
+    }
+
     header, #bottom {
         background: url('https://rawgit.com/askalburgi/tumblrportfolio/master/main.jpg') fixed; 
         color: #FFF; 
@@ -86,14 +90,18 @@
     figure {
         text-align: center;
         margin: 0;
+        transition: all 250ms ease;
     }
 
-    /* Header Section - Main Links */
-        header .main_links .main_link figure:hover {
+    /* Main Links */
+        .main_links figure:hover {
             border-radius: 60px;
             box-shadow: 0px 0px 30px 30px #007E60;
             background-color: #007E60;
             color: #fff; 
+        }
+        .main_links figure.bigcenter:hover {
+            border-radius: 200px; 
         }
 
 /* Content Blocks */
