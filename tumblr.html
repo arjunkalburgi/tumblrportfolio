@@ -58,7 +58,7 @@
 							<a href="http://www.arjunkalburgi.com/ventures"><i class="fa fa-universal-access"></i></a>
 						</figure>
 						<figure class="bigcenter col s4">
-							<a href="http://ventures.arjunkalburgi.com"><img src="mock.svg"></a>
+							<a href="http://ventures.arjunkalburgi.com"><img src="https://rawgit.com/askalburgi/tumblrportfolio/master/mock.svg"></a>
 						</figure>
 						<figure class="col s2">
 							<a href="https://www.instagram.com/askalburgi/"><i class="fa fa-instagram"></i></a>
@@ -71,7 +71,26 @@
 
 				<div class="blocks">
 
-					<div id="encmp100" class="block">
+					{block:Posts}{block:Text}
+                    <div id="{Title}" class="block">
+	                    <div class="blockcontainer">
+							{block:Title}
+							<h3>{Title}</h3><hr><div class="small">{Month} {Year}</div>
+                           	{/block:Title}
+                           	{/block:Text}{block:Photo}
+                           	<img class="picture" src="{PhotoURL-500}" alt="{PhotoAlt}">
+                           	{block:Caption}
+                            <div><a href="{Caption}">Learn more</a></div>
+                        	{/block:Caption}{/block:Photo}
+                        	{block:HasTags}<div>{block:Tags}
+                			<a href="{TagURL}">{Tag}</a> 
+							{/block:Tags}</div>{/block:HasTags}
+
+						</div>
+					</div>
+					{/block:Posts}
+
+					<!--<div id="encmp100" class="block">
 						<div class="blockcontainer">
 						 	<h3>Revitalizing ENCMP</h3><hr><div class="small">Winter 2017</div>
 							<img class="picture" src="https://github.com/askalburgi/askalburgi.github.io/blob/master/img/proj/proj-encmp.png?raw=true">
@@ -123,7 +142,7 @@
 							<div><a href="linktomorecontent">Learn more</a></div>
 							<div>Similar projects: #heyman #i #lie #girl #angel #fly #shit</div>
 						</div>
-					</div>
+					</div>-->
 
 				</div>
 			</div>
