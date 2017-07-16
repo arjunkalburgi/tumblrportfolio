@@ -15,6 +15,10 @@
 	#encmp100 a {
 		color: #004AB2 !important;
 	}
+	#encmp100 .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  #004AB2 !important;
+        background-color:  #004AB2 !important;
+	}
 
 /*hacktime*/
 	.hacktime {
@@ -25,6 +29,10 @@
 	}
 	#hacktime a {
 		color: rgb(255, 189, 56) !important;
+	}
+	#hacktime .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  rgb(255, 189, 56) !important;
+        background-color:  rgb(255, 189, 56) !important;
 	}
 
 /*eceweekhacked2017*/
@@ -37,6 +45,10 @@
 	#eceweekhacked2017 a {
 		color: #C0C0C0 !important;
 	}
+	#eceweekhacked2017 .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  #C0C0C0 !important;
+        background-color:  #C0C0C0 !important;
+	}
 
 /*AUcourses*/
 	.AUcourses {
@@ -47,6 +59,10 @@
 	}
 	#AUcourses a {
 		color: rgba(0,0,0,0.8) !important;
+	}
+	#AUcourses .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  rgba(0,0,0,0.8) !important;
+        background-color:  rgba(0,0,0,0.8) !important;
 	}
 
 /*reactlessons*/
@@ -59,6 +75,10 @@
 	#reactlessons a {
 		color: #61DAFB; 
 	}
+	#reactlessons .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  #61DAFB; 
+        background-color:  #61DAFB; 
+	}
 
 /*makeover*/
 	.makeover {
@@ -69,6 +89,10 @@
 	}
 	#makeover a {
 		color: #ED4F67;
+	}
+	#makeover .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  #ED4F67;
+        background-color:  #ED4F67;
 	}
 
 /*testingproj*/
@@ -81,6 +105,10 @@
 	#testingproj a {
 		color: #1A3D57; 
 	}
+	#testingproj .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  #1A3D57; 
+        background-color:  #1A3D57; 
+	}
 
 /*dbhospitalapp*/
 	.dbhospitalapp {
@@ -91,6 +119,10 @@
 	}
 	#dbhospitalapp a {
 		color: #09FDFB;
+	}
+	#dbhospitalapp .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  #09FDFB;
+        background-color:  #09FDFB;
 	}
 
 /*howtocompe*/
@@ -103,6 +135,10 @@
 	#howtocompe a {
 		color: #1B4610 !important;
 	}
+	#howtocompe .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  #1B4610 !important;
+        background-color:  #1B4610 !important;
+	}
 
 /*dbnormalizerapp*/
 	.dbnormalizerapp {
@@ -113,6 +149,10 @@
 	}
 	#dbnormalizerapp a {
 		color: #09FDFB;
+	}
+	#dbnormalizerapp .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  #09FDFB;
+        background-color:  #09FDFB;
 	}
 
 /*cloudycar*/
@@ -125,6 +165,10 @@
 	#cloudycar a {
 		color: #fff; /*#ffbd38;*/
 	}
+	#cloudycar .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  #fff; /*#ffbd38;*/
+        background-color:  #fff; /*#ffbd38;*/
+	}
 
 /*d3tutorial*/
 	.d3tutorial {
@@ -135,6 +179,10 @@
 	}
 	#d3tutorial a {
 		color: #f5844b !important;
+	}
+	#d3tutorial .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  #f5844b !important;
+        background-color:  #f5844b !important;
 	}
 
 /*C301as1*/
@@ -147,6 +195,10 @@
 	#C301as1 a {
 		color: #4d8e33 !important;
 	}
+	#C301as1 .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  #4d8e33 !important;
+        background-color:  #4d8e33 !important;
+	}
 
 /*ECEW17*/
 	.ECEW17 {
@@ -158,6 +210,10 @@
 		color: #ffbd38 !important;
 	}
 	#ECEW17 a {
+		.block .picture {
+			boxs-shadow: 0px 0px 30px 30px :hover#007E60;
+        W17 background-color: 	#ECEW17 1 {
+1	#ECEW17 a {
 		color: #ffbd38 !important;
 	}
 
@@ -171,6 +227,10 @@
 	#CEClub a {
 		color: #fff !important;
 	}
+	#CEClub .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  #fff !important;
+        background-color:  #fff !important;
+	}
 
 /*pkb*/
 	.pkb {
@@ -181,6 +241,10 @@
 	}
 	#pkb a {
 		color: #fff !important;
+	}
+	#pkb .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  #fff !important;
+        background-color:  #fff !important;
 	}
 
 /*shoutbox2*/
@@ -193,6 +257,10 @@
 	#shoutbox2 a {
 		color: #663560 !important;
 	}
+	#shoutbox2 .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  #663560 !important;
+        background-color:  #663560 !important;
+	}
 
 /*dra*/
 	.dra {
@@ -203,6 +271,10 @@
 	}
 	#dra a {
 		color: white !important;
+	}
+	#dra .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  white !important;
+        background-color:  white !important;
 	}
 
 /*fire*/
@@ -215,6 +287,10 @@
 	#fire a {
 		color: black !important;
 	}
+	#fire .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  black !important;
+        background-color:  black !important;
+	}
 
 /*eceweekhacked2015*/
 	.eceweekhacked2015 {
@@ -225,6 +301,10 @@
 	}
 	#eceweekhacked2015 a {
 		color: #ffbd38 !important;
+	}
+	#eceweekhacked2015 .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  #ffbd38 !important;
+        background-color:  #ffbd38 !important;
 	}
 
 /*ciao*/
@@ -237,6 +317,10 @@
 	#ciao a {
 		color: white !important;
 	}
+	#ciao .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  white !important;
+        background-color:  white !important;
+	}
 
 /*rdf*/
 	.rdf {
@@ -247,6 +331,10 @@
 	}
 	#rdf a {
 		color: white !important;
+	}
+	#rdf .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  white !important;
+        background-color:  white !important;
 	}
 
 /*reviews*/
@@ -259,6 +347,10 @@
 	#reviews a {
 		color: white !important;
 	}
+	#reviews .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  white !important;
+        background-color:  white !important;
+	}
 
 /*senti*/
 	.senti {
@@ -269,6 +361,10 @@
 	}
 	#senti a {
 		color: white !important;
+	}
+	#senti .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  white !important;
+        background-color:  white !important;
 	}
 
 /*conn4*/
@@ -281,6 +377,10 @@
 	#conn4 a {
 		color: white !important;
 	}
+	#conn4 .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  white !important;
+        background-color:  white !important;
+	}
 
 /*shoutbox*/
 	.shoutbox {
@@ -291,6 +391,10 @@
 	}
 	#shoutbox a {
 		color: white !important;
+	}
+	#shoutbox .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  white !important;
+        background-color:  white !important;
 	}
 
 /*tetris*/
@@ -303,6 +407,10 @@
 	#tetris a {
 		color: white !important;
 	}
+	#tetris .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  white !important;
+        background-color:  white !important;
+	}
 
 /*resnet*/
 	.resnet {
@@ -314,6 +422,10 @@
 	#resnet a {
 		color: white !important;
 	}
+	#resnet .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  white !important;
+        background-color:  white !important;
+	}
 
 /*runner*/
 	.runner {
@@ -324,4 +436,8 @@
 	}
 	#runner a {
 		color: white !important;
+	}
+	#runner .blocks .picture:hover {
+		box-shadow: 0px 0px 10px 10px  white !important;
+        background-color:  white !important;
 	}

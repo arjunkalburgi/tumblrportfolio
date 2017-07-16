@@ -134,22 +134,15 @@
 		width: 80%; 
 		margin: 0 auto;
 	}
-	.blocks .col {
-		/* vertical center */
-		height: 50%; 
-		/* vertical center: container */
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
 	.blocks .picture {
 		max-width: 300px; 
 		margin: 0 auto; 
 	}
-	.blocks .links {
-        padding-top: 5%; 
-		text-align: center;
-	}
+    .blocks .picture:hover {
+        border-radius: 200px;
+        /*box-shadow: 0px 0px 30px 30px #007E60;
+        background-color: #007E60;*/
+    }
     @media only screen and (max-width: 630px) {
         .blocks {
             padding-top: 10%; 
