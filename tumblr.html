@@ -77,18 +77,14 @@
 							{block:Title}
 							<h3>{Title}</h3><hr><div class="small">{Month} {Year}</div>
                            	{/block:Title}
-                           	{/block:Text}{block:Photo}
-                           	<img class="picture" src="{PhotoURL-500}" alt="{PhotoAlt}">
-                           	{block:Caption}
-                            <div><a href="{Caption}">Learn more</a></div>
-                        	{/block:Caption}{/block:Photo}
-                        	{block:HasTags}<div>{block:Tags}
+                        	{block:HasTags}<div class="hashtags">{block:Tags}
                 			<a href="{TagURL}">{Tag}</a> 
 							{/block:Tags}</div>{/block:HasTags}
+                           	{Body}
 
 						</div>
 					</div>
-					{/block:Posts}
+                    {/block:Text}{/block:Posts}
 
 					<!--<div id="encmp100" class="block">
 						<div class="blockcontainer">

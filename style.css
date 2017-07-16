@@ -55,14 +55,14 @@
         text-align: center;
     }
 
-    .block .hashtags {
+    .block .hashtags a {
         opacity: 0.5;
     }
 
 /* Header and Footer */
     header {
         margin: 0 auto; 
-        height: 90%; 
+        height: 90vh; 
         padding: 15% 0; 
     }
 
@@ -113,7 +113,7 @@
         z-index: 3;
     }
 	.blocks .block {
-		height: 90%; 
+		height: 90vh; 
         display: flex;
         justify-content: center;
         align-items: center; 
