@@ -64,6 +64,7 @@
         margin: 0 auto; 
         height: 90vh; 
         padding: 15% 0; 
+        -webkit-mask-image: -webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))); 
     }
 
     header figure.bigcenter img {
