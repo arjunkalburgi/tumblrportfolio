@@ -6,46 +6,46 @@
 */
 
 /*encmp100*/
-	.encmp100 {
+	.RevitalizingENCMP {
 		background: #ffc85e; 
 	}
-	#encmp100 {
+	#RevitalizingENCMP {
 		color: rgba(0, 0, 0, 0.6); 
 	}
-	#encmp100 a {
+	#RevitalizingENCMP a {
 		color: #004AB2 !important;
 	}
-	#encmp100 .blocks .picture:hover {
+	#RevitalizingENCMP .blocks .picture:hover {
 		box-shadow: 0px 0px 10px 10px  #004AB2 !important;
         background-color:  #004AB2 !important;
 	}
 
 /*hacktime*/
-	.hacktime {
+	.HackTime {
 		background: #16703D; 
 	}
-	#hacktime {
+	#HackTime {
 		color: rgba(199, 199, 199, 0.68); 
 	}
-	#hacktime a {
+	#HackTime a {
 		color: rgb(255, 189, 56) !important;
 	}
-	#hacktime .blocks .picture:hover {
+	#HackTime .blocks .picture:hover {
 		box-shadow: 0px 0px 10px 10px  rgb(255, 189, 56) !important;
         background-color:  rgb(255, 189, 56) !important;
 	}
 
 /*eceweekhacked2017*/
-	.eceweekhacked2017 {
+	.HackEd2017 {
 		background: #53147E;
 	}
-	#eceweekhacked2017 {
+	#HackEd2017 {
 		color: rgba(199, 199, 199, 0.68); 
 	}
-	#eceweekhacked2017 a {
+	#HackEd2017 a {
 		color: #C0C0C0 !important;
 	}
-	#eceweekhacked2017 .blocks .picture:hover {
+	#HackEd2017 .blocks .picture:hover {
 		box-shadow: 0px 0px 10px 10px  #C0C0C0 !important;
         background-color:  #C0C0C0 !important;
 	}
@@ -66,16 +66,16 @@
 	}
 
 /*reactlessons*/
-	.reactlessons {
+	.ReactLessons {
 		background: #ff8f4a; 
 	}
-	#reactlessons {
+	#ReactLessons {
 		color: rgba(0, 0, 0, 0.9);
 	}
-	#reactlessons a {
+	#ReactLessons a {
 		color: #61DAFB; 
 	}
-	#reactlessons .blocks .picture:hover {
+	#ReactLessons .blocks .picture:hover {
 		box-shadow: 0px 0px 10px 10px  #61DAFB; 
         background-color:  #61DAFB; 
 	}
@@ -126,16 +126,16 @@
 	}
 
 /*howtocompe*/
-	.howtocompe {
+	.HowToCompEworkshops {
 		background: #d9e6e0; 
 	}
-	#howtocompe {
+	#HowToCompEworkshops {
 		color: rgba(0,0,0,0.8);
 	}
-	#howtocompe a {
+	#HowToCompEworkshops a {
 		color: #1B4610 !important;
 	}
-	#howtocompe .blocks .picture:hover {
+	#HowToCompEworkshops .blocks .picture:hover {
 		box-shadow: 0px 0px 10px 10px  #1B4610 !important;
         background-color:  #1B4610 !important;
 	}
@@ -210,12 +210,13 @@
 		color: #ffbd38 !important;
 	}
 	#ECEW17 a {
-		.block .picture {
-			boxs-shadow: 0px 0px 30px 30px :hover#007E60;
-        W17 background-color: 	#ECEW17 1 {
-1	#ECEW17 a {
 		color: #ffbd38 !important;
 	}
+	#ECEW17 .block .picture:hover {
+		box-shadow: 0px 0px 30px 30px #007E60;
+        background-color: #007E60;
+    }
+
 
 /*CEClub*/
 	.CEClub {
@@ -293,16 +294,16 @@
 	}
 
 /*eceweekhacked2015*/
-	.eceweekhacked2015 {
+	.ECEWeek-HackEd2016 {
 		background: #2f355a; 
 	}
-	#eceweekhacked2015 {
+	#ECEWeek-HackEd2016 {
 		color: rgba(199, 199, 199, 0.68); 
 	}
-	#eceweekhacked2015 a {
+	#ECEWeek-HackEd2016 a {
 		color: #ffbd38 !important;
 	}
-	#eceweekhacked2015 .blocks .picture:hover {
+	#ECEWeek-HackEd2016 .blocks .picture:hover {
 		box-shadow: 0px 0px 10px 10px  #ffbd38 !important;
         background-color:  #ffbd38 !important;
 	}
