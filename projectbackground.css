@@ -111,16 +111,16 @@
 	}
 
 /*dbhospitalapp*/
-	.dbhospitalapp {
+	.DatabaseProject {
 		background: /*#749B74*/#F4AF92; 
 	}
-	#dbhospitalapp {
+	#DatabaseProject {
 		color: rgba(0,0,0,0.3);
 	}
-	#dbhospitalapp a {
+	#DatabaseProject a {
 		color: #09FDFB;
 	}
-	#dbhospitalapp .blocks .picture:hover {
+	#DatabaseProject .blocks .picture:hover {
 		box-shadow: 0px 0px 10px 10px  #09FDFB;
         background-color:  #09FDFB;
 	}
@@ -156,46 +156,46 @@
 	}
 
 /*cloudycar*/
-	.cloudycar {
+	.CloudyCar {
 		background: /*#135FAB*/#e2c3d1; 
 	}
-	#cloudycar {
+	#CloudyCar {
 		color: #135FAB;  /*#237e7c;*/
 	}
-	#cloudycar a {
+	#CloudyCar a {
 		color: #fff; /*#ffbd38;*/
 	}
-	#cloudycar .blocks .picture:hover {
+	#CloudyCar .blocks .picture:hover {
 		box-shadow: 0px 0px 10px 10px  #fff; /*#ffbd38;*/
         background-color:  #fff; /*#ffbd38;*/
 	}
 
 /*d3tutorial*/
-	.d3tutorial {
+	.LearningD3 {
 		background: #7f3ea5/*#f5844b*/; 
 	}
-	#d3tutorial {
+	#LearningD3 {
 		color: #f5844b !important;
 	}
-	#d3tutorial a {
+	#LearningD3 a {
 		color: #f5844b !important;
 	}
-	#d3tutorial .blocks .picture:hover {
+	#LearningD3 .blocks .picture:hover {
 		box-shadow: 0px 0px 10px 10px  #f5844b !important;
         background-color:  #f5844b !important;
 	}
 
 /*C301as1*/
-	.C301as1 {
+	.FirstAndroidProject {
 		background: #B0BEC5/*#B0AB18*/; 
 	}
-	#C301as1 {
+	#FirstAndroidProject {
 		color: #4d8e33 !important;
 	}
-	#C301as1 a {
+	#FirstAndroidProject a {
 		color: #4d8e33 !important;
 	}
-	#C301as1 .blocks .picture:hover {
+	#FirstAndroidProject .blocks .picture:hover {
 		box-shadow: 0px 0px 10px 10px  #4d8e33 !important;
         background-color:  #4d8e33 !important;
 	}
@@ -248,46 +248,46 @@
 	}
 
 /*shoutbox2*/
-	.shoutbox2 {
+	.ShoutBox {
 		background: #e0c6a7/*#A09A92*/; 
 	}
-	#shoutbox2 {
+	#ShoutBox {
 		color: #663560 !important;
 	}
-	#shoutbox2 a {
+	#ShoutBox a {
 		color: #663560 !important;
 	}
-	#shoutbox2 .blocks .picture:hover {
+	#ShoutBox .blocks .picture:hover {
 		box-shadow: 0px 0px 10px 10px  #663560 !important;
         background-color:  #663560 !important;
 	}
 
 /*dra*/
-	.dra {
+	.RDFResearch {
 		background: #323232; 
 	}
-	#dra {
+	#RDFResearch {
 		color: rgba(255,255,255,0.6) !important;
 	}
-	#dra a {
+	#RDFResearch a {
 		color: white !important;
 	}
-	#dra .blocks .picture:hover {
+	#RDFResearch .blocks .picture:hover {
 		box-shadow: 0px 0px 10px 10px  white !important;
         background-color:  white !important;
 	}
 
 /*fire*/
-	.fire {
+	.FireEscape {
 		background: /*#b3afae*/#984b37; 
 	}
-	#fire {
+	#FireEscape {
 		color: black !important;
 	}
-	#fire a {
+	#FireEscape a {
 		color: black !important;
 	}
-	#fire .blocks .picture:hover {
+	#FireEscape .blocks .picture:hover {
 		box-shadow: 0px 0px 10px 10px  black !important;
         background-color:  black !important;
 	}
@@ -353,31 +353,31 @@
 	}
 
 /*senti*/
-	.senti {
+	.SentimentAnalysis {
 		background: /*#222222*/#3BB873; 
 	}
-	#senti {
+	#SentimentAnalysis {
 		color: rgba(255,255,255,0.6) !important;
 	}
-	#senti a {
+	#SentimentAnalysis a {
 		color: white !important;
 	}
-	#senti .blocks .picture:hover {
+	#SentimentAnalysis .blocks .picture:hover {
 		box-shadow: 0px 0px 10px 10px  white !important;
         background-color:  white !important;
 	}
 
 /*conn4*/
-	.conn4 {
+	.ConnectFour {
 		background: /*#0088ff*/#0088ff; 
 	}
-	#conn4 {
+	#ConnectFour {
 		color: rgba(255,255,255,0.6) !important;
 	}
-	#conn4 a {
+	#ConnectFour a {
 		color: white !important;
 	}
-	#conn4 .blocks .picture:hover {
+	#ConnectFour .blocks .picture:hover {
 		box-shadow: 0px 0px 10px 10px  white !important;
         background-color:  white !important;
 	}
@@ -413,16 +413,16 @@
 	}
 
 /*resnet*/
-	.resnet {
+	.ConferenceApp {
 		background: /*#b7703c*/#9e663c; 
 	}
-	#resnet {
+	#ConferenceApp {
 		color: rgba(255,255,255,0.6) !important;
 	}
-	#resnet a {
+	#ConferenceApp a {
 		color: white !important;
 	}
-	#resnet .blocks .picture:hover {
+	#ConferenceApp .blocks .picture:hover {
 		box-shadow: 0px 0px 10px 10px  white !important;
         background-color:  white !important;
 	}
