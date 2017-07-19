@@ -5,6 +5,19 @@
 	use adobe.color.com
 */
 
+/*helpmesee*/
+	.BlindGlasses {
+		background: #0CCDA8;
+	}
+
+	#BlindGlasses {
+		color: rgba(90, 25, 25, 0.8); 
+	}
+
+	#BlindGlasses a {
+		color: #CD400C;
+	}
+
 /*encmp100*/
 	.RevitalizingENCMP {
 		background: #ffc85e; 
@@ -384,16 +397,16 @@
 	}
 
 /*shoutbox*/
-	.shoutbox {
+	.ShoutBox {
 		background: /*#283e50*/#283e50; 
 	}
-	#shoutbox {
+	#ShoutBox {
 		color: rgba(255,255,255,0.6) !important;
 	}
-	#shoutbox a {
+	#ShoutBox a {
 		color: white !important;
 	}
-	#shoutbox .blocks .picture:hover {
+	#ShoutBox .blocks .picture:hover {
 		box-shadow: 0px 0px 10px 10px  white !important;
         background-color:  white !important;
 	}
