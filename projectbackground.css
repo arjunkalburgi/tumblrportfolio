@@ -28,9 +28,9 @@
 	#RevitalizingENCMP a {
 		color: #004AB2 !important;
 	}
-	#RevitalizingENCMP .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  #004AB2 !important;
-        background-color:  #004AB2 !important;
+	#RevitalizingENCMP img:hover {
+		box-shadow: 0px 0px 1000px 100px  rgba(255, 56, 221, 0.5) !important; 
+        background-color: rgba(255, 56, 221, 0.34) !important; 
 	}
 
 /*hacktime*/
@@ -43,9 +43,12 @@
 	#HackTime a {
 		color: rgb(255, 189, 56) !important;
 	}
-	#HackTime .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  rgb(255, 189, 56) !important;
-        background-color:  rgb(255, 189, 56) !important;
+	#HackTime a img {
+		filter: sepia(100%);
+	}
+	#HackTime img:hover {
+		box-shadow: 0px 0px 1000px 100px  rgba(255, 189, 56, 0.5) !important; 
+        background-color: rgba(255, 189, 56, 0.34) !important; 
 	}
 
 /*eceweekhacked2017*/
@@ -58,9 +61,8 @@
 	#HackEd2017 a {
 		color: #C0C0C0 !important;
 	}
-	#HackEd2017 .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  #C0C0C0 !important;
-        background-color:  #C0C0C0 !important;
+	#HackEd2017 a:hover img {
+		filter: sepia(100%);
 	}
 
 /*AUcourses*/

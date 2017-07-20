@@ -151,6 +151,18 @@
             height: inherit;
         }
     }
+    
+    /* Tumblr Blocks */
+        .block figure img {
+            max-width: 300px; 
+            height: 100%; 
+        }
+
+    /* img hover */
+        .block img {
+            transition: box-shadow 350ms ease, background-color 400ms ease; 
+            border-radius: 1000px; 
+        }
 
 /* Background Feature */
     /* Layers */
@@ -178,10 +190,4 @@
         pointer-events: none;
         mix-blend-mode: soft-light;
         background: linear-gradient(to bottom right, rgba(255,255,255,0.8), rgba(0,0,0,0.7)); 
-    }
-
-/* Tumblr Blocks */
-    .block figure img {
-        max-width: 300px; 
-        height: 100%; 
     }
