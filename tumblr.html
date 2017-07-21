@@ -35,12 +35,28 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="projectbackground.css">
+	<link rel="stylesheet" type="text/css" href="https://rawgit.com/askalburgi/askalburgi.github.io/master/css/animate.css">
 	<!-- <link rel="stylesheet" type="text/css" href="https://rawgit.com/askalburgi/tumblrportfolio/master/style.css"> -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 	<script src="https://rawgit.com/askalburgi/tumblrportfolio/master/backgroundchanger.js"></script>
+	<script src="http://rawgit.com/askalburgi/askalburgi.github.io/master/js/WOW.js"></script>
+	<script type="text/javascript">
+		
+		$( document ).ready(function(){
+			image_links = $("#content > div > div > div > a > img"); 
+
+			image_links.addClass("wow");
+			image_links.addClass("animated");
+			image_links.addClass("tada");
+
+			// WOW
+			new WOW().init();
+		})
+
+	</script>
 </head>
 
 <body>
