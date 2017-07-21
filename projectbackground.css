@@ -5,17 +5,25 @@
 	use adobe.color.com
 */
 
+/*squarepics*/
+	#RDFResearch img, #SentimentAnalysis img, #ConnectFour img, 
+	#ConferenceApp img, #DatabaseProject img  {
+		border-radius: initial;
+	}
+
 /*helpmesee*/
 	.BlindGlasses {
 		background: #0CCDA8;
 	}
-
 	#BlindGlasses {
-		color: rgba(90, 25, 25, 0.8); 
+		color: rgba(0, 0, 0, 0.68); 
 	}
-
 	#BlindGlasses a {
 		color: #CD400C;
+	}
+	#BlindGlasses a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(255, 56, 221, 0.5); 
+        background-color: rgba(255, 56, 221, 0.34);
 	}
 
 /*encmp100*/
@@ -23,14 +31,14 @@
 		background: #ffc85e; 
 	}
 	#RevitalizingENCMP {
-		color: rgba(0, 0, 0, 0.6); 
+		color: rgba(0, 0, 0, 0.68); 
 	}
 	#RevitalizingENCMP a {
-		color: #004AB2 !important;
+		color: rgb(0, 74, 178) !important;
 	}
-	#RevitalizingENCMP img:hover {
-		box-shadow: 0px 0px 1000px 100px  rgba(255, 56, 221, 0.5) !important; 
-        background-color: rgba(255, 56, 221, 0.34) !important; 
+	#RevitalizingENCMP a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(205, 64, 12, 0.5); 
+        background-color: rgba(205, 64, 12, 0.34); 
 	}
 
 /*hacktime*/
@@ -46,9 +54,9 @@
 	#HackTime a img {
 		filter: sepia(100%);
 	}
-	#HackTime img:hover {
-		box-shadow: 0px 0px 1000px 100px  rgba(255, 189, 56, 0.5) !important; 
-        background-color: rgba(255, 189, 56, 0.34) !important; 
+	#HackTime a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(255, 189, 56, 0.5); 
+        background-color: rgba(255, 189, 56, 0.34); 
 	}
 
 /*eceweekhacked2017*/
@@ -59,10 +67,11 @@
 		color: rgba(199, 199, 199, 0.68); 
 	}
 	#HackEd2017 a {
-		color: #C0C0C0 !important;
+		color: #19713F !important;
 	}
 	#HackEd2017 a:hover img {
-		filter: sepia(100%);
+		box-shadow: 0px 0px 1000px 100px rgba(139, 101, 36, 0.5); 
+        background-color: rgba(139, 101, 36, 0.34);
 	}
 
 /*AUcourses*/
@@ -70,14 +79,14 @@
 		background: #e4c18e; 
 	}
 	#AUcourses {
-		color: rgba(0,0,0,0.5);
+		color: rgba(0,0,0,0.68);
 	}
 	#AUcourses a {
-		color: rgba(0,0,0,0.8) !important;
+		color: rgb(26,69,15) !important;
 	}
-	#AUcourses .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  rgba(0,0,0,0.8) !important;
-        background-color:  rgba(0,0,0,0.8) !important;
+	#AUcourses a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(144,142,228,0.5);
+        background-color: rgba(144,142,228,0.34);
 	}
 
 /*reactlessons*/
@@ -85,34 +94,34 @@
 		background: #ff8f4a; 
 	}
 	#ReactLessons {
-		color: rgba(0, 0, 0, 0.9);
+		color: rgba(0, 0, 0, 0.68); 
 	}
 	#ReactLessons a {
-		color: #61DAFB; 
+		color: #0e84a5; 
 	}
-	#ReactLessons .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  #61DAFB; 
-        background-color:  #61DAFB; 
+	#ReactLessons a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(16, 175, 178, 0.5); 
+        background-color: rgba(16, 175, 178, 0.34); 
 	}
 
 /*makeover*/
 	.makeover {
-		background: #129EB2/*#3E3C10*/; 
+		background: #129EB2; 
 	}
 	#makeover {
-		color: rgba(255,255,255,0.5); 
+		color: rgba(199, 199, 199, 0.68); 
 	}
 	#makeover a {
 		color: #ED4F67;
 	}
-	#makeover .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  #ED4F67;
-        background-color:  #ED4F67;
+	#makeover a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(228, 193, 142, 0.5);
+        background-color: rgba(228, 193, 142, 0.34);
 	}
 
-/*testingproj*/
+/*testingproj
 	.testingproj {
-		background: #414141/*#216CA3*/; 
+		background: #414141; 
 	}
 	#testingproj {
 		color: rgba(255,255,255,0.5);
@@ -120,24 +129,24 @@
 	#testingproj a {
 		color: #1A3D57; 
 	}
-	#testingproj .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  #1A3D57; 
-        background-color:  #1A3D57; 
-	}
+	#testingproj a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(199, 199, 199, 0.5); 
+        background-color: rgba(199, 199, 199, 0.34); 
+	}*/
 
 /*dbhospitalapp*/
 	.DatabaseProject {
-		background: /*#749B74*/#F4AF92; 
+		background: #B29D7C; 
 	}
 	#DatabaseProject {
-		color: rgba(0,0,0,0.3);
+		color: rgba(0, 0, 0, 0.68);
 	}
 	#DatabaseProject a {
-		color: #09FDFB;
+		color: #E5F4FF;
 	}
-	#DatabaseProject .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  #09FDFB;
-        background-color:  #09FDFB;
+	#DatabaseProject a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(255, 204, 203, 0.5);
+        background-color: rgba(255, 204, 203, 0.34);
 	}
 
 /*howtocompe*/
@@ -145,19 +154,19 @@
 		background: #d9e6e0; 
 	}
 	#HowToCompEworkshops {
-		color: rgba(0,0,0,0.8);
+		color: rgba(0, 0, 0, 0.68);
 	}
 	#HowToCompEworkshops a {
-		color: #1B4610 !important;
+		color: #81998E !important;
 	}
-	#HowToCompEworkshops .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  #1B4610 !important;
-        background-color:  #1B4610 !important;
+	#HowToCompEworkshops a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(245, 223, 255, 0.5);
+        background-color: rgba(245, 223, 255, 0.34);
 	}
 
-/*dbnormalizerapp*/
+/*dbnormalizerapp
 	.dbnormalizerapp {
-		background: /*#F4AF92*/#749B74; 
+		background: #749B74; 
 	}
 	#dbnormalizerapp {
 		color: rgba(0,0,0,0.3);
@@ -165,54 +174,55 @@
 	#dbnormalizerapp a {
 		color: #09FDFB;
 	}
-	#dbnormalizerapp .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  #09FDFB;
-        background-color:  #09FDFB;
-	}
+	#dbnormalizerapp a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(199, 199, 199, 0.5);
+        background-color: rgba(199, 199, 199, 0.34);
+	}*/
 
 /*cloudycar*/
 	.CloudyCar {
-		background: /*#135FAB*/#e2c3d1; 
+		background: #E2C3D1; 
 	}
 	#CloudyCar {
-		color: #135FAB;  /*#237e7c;*/
+		color: rgba(0, 0, 0, 0.68); 
+		/*color: #135FAB;*/
 	}
 	#CloudyCar a {
-		color: #fff; /*#ffbd38;*/
+		color: #135FAB;
 	}
-	#CloudyCar .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  #fff; /*#ffbd38;*/
-        background-color:  #fff; /*#ffbd38;*/
+	#CloudyCar a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(255, 255, 255, 0.34);
+        background-color: rgba(255, 255, 255, 0.2);
 	}
 
 /*d3tutorial*/
 	.LearningD3 {
-		background: #7f3ea5/*#f5844b*/; 
+		background: #7f3ea5; 
 	}
 	#LearningD3 {
-		color: #f5844b !important;
+		color: rgba(199, 199, 199, 0.68);
 	}
 	#LearningD3 a {
 		color: #f5844b !important;
 	}
-	#LearningD3 .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  #f5844b !important;
-        background-color:  #f5844b !important;
+	#LearningD3 a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(80, 241, 115, 0.5);
+        background-color: rgba(80, 241, 115, 0.34);
 	}
 
 /*C301as1*/
 	.FirstAndroidProject {
-		background: #B0BEC5/*#B0AB18*/; 
+		background: #B0BEC5; 
 	}
 	#FirstAndroidProject {
-		color: #4d8e33 !important;
+		color: rgba(0, 0, 0, 0.68); 
 	}
 	#FirstAndroidProject a {
-		color: #4d8e33 !important;
+		color: #1F4111 !important;
 	}
-	#FirstAndroidProject .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  #4d8e33 !important;
-        background-color:  #4d8e33 !important;
+	#FirstAndroidProject a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(71, 74, 155, 0.5);
+        background-color: rgba(71, 74, 155, 0.34);
 	}
 
 /*ECEW17*/
@@ -228,8 +238,8 @@
 		color: #ffbd38 !important;
 	}
 	#ECEW17 .block .picture:hover {
-		box-shadow: 0px 0px 30px 30px #007E60;
-        background-color: #007E60;
+		box-shadow: 0px 0px 1000px 100px;
+        background-color:;
     }
 
 
@@ -243,9 +253,9 @@
 	#CEClub a {
 		color: #fff !important;
 	}
-	#CEClub .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  #fff !important;
-        background-color:  #fff !important;
+	#CEClub a:hover img {
+		box-shadow: 0px 0px 1000px 100px  #fff;
+        background-color:  #fff;
 	}
 
 /*pkb*/
@@ -258,24 +268,24 @@
 	#pkb a {
 		color: #fff !important;
 	}
-	#pkb .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  #fff !important;
-        background-color:  #fff !important;
+	#pkb a:hover img {
+		box-shadow: 0px 0px 1000px 100px  #fff;
+        background-color:  #fff;
 	}
 
 /*shoutbox2*/
 	.ShoutBox {
-		background: #e0c6a7/*#A09A92*/; 
+		background: #e0c6a7; 
 	}
 	#ShoutBox {
-		color: #663560 !important;
+		color: rgba(0, 0, 0, 0.68); 
 	}
 	#ShoutBox a {
-		color: #663560 !important;
+		color: #AD70A0;
 	}
-	#ShoutBox .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  #663560 !important;
-        background-color:  #663560 !important;
+	#ShoutBox a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(194, 229,228, 0.5);
+        background-color: rgba(194, 229,228, 0.34);
 	}
 
 /*dra*/
@@ -283,29 +293,29 @@
 		background: #323232; 
 	}
 	#RDFResearch {
-		color: rgba(255,255,255,0.6) !important;
+		color: rgba(199, 199, 199, 0.68); 
 	}
 	#RDFResearch a {
-		color: white !important;
+		color: #e8e8e8;
 	}
-	#RDFResearch .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  white !important;
-        background-color:  white !important;
+	#RDFResearch a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(126,115,114, 0.5);
+        background-color: rgba(126,115,114, 0.34);
 	}
 
 /*fire*/
 	.FireEscape {
-		background: /*#b3afae*/#984b37; 
+		background: #984b37; 
 	}
 	#FireEscape {
-		color: black !important;
+		color: rgba(0, 0, 0, 0.68); 
 	}
 	#FireEscape a {
-		color: black !important;
+		color: #4B1F14;
 	}
-	#FireEscape .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  black !important;
-        background-color:  black !important;
+	#FireEscape a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(75,31,20, 0.5);
+        background-color: rgba(75,31,20, 0.34);
 	}
 
 /*eceweekhacked2015*/
@@ -318,9 +328,9 @@
 	#ECEWeek-HackEd2016 a {
 		color: #ffbd38 !important;
 	}
-	#ECEWeek-HackEd2016 .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  #ffbd38 !important;
-        background-color:  #ffbd38 !important;
+	#ECEWeek-HackEd2016 a:hover img {
+		box-shadow: 0px 0px 1000px 100px  #ffbd38;
+        background-color:  #ffbd38;
 	}
 
 /*ciao*/
@@ -333,9 +343,9 @@
 	#ciao a {
 		color: white !important;
 	}
-	#ciao .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  white !important;
-        background-color:  white !important;
+	#ciao a:hover img {
+		box-shadow: 0px 0px 1000px 100px  white;
+        background-color:  white;
 	}
 
 /*rdf*/
@@ -348,9 +358,9 @@
 	#rdf a {
 		color: white !important;
 	}
-	#rdf .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  white !important;
-        background-color:  white !important;
+	#rdf a:hover img {
+		box-shadow: 0px 0px 1000px 100px  white;
+        background-color:  white;
 	}
 
 /*reviews*/
@@ -363,24 +373,24 @@
 	#reviews a {
 		color: white !important;
 	}
-	#reviews .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  white !important;
-        background-color:  white !important;
+	#reviews a:hover img {
+		box-shadow: 0px 0px 1000px 100px  white;
+        background-color:  white;
 	}
 
 /*senti*/
 	.SentimentAnalysis {
-		background: /*#222222*/#3BB873; 
+		background: #3BB873; 
 	}
 	#SentimentAnalysis {
-		color: rgba(255,255,255,0.6) !important;
+		color: rgba(199, 199, 199, 0.68); 
 	}
 	#SentimentAnalysis a {
-		color: white !important;
+		color: white;
 	}
-	#SentimentAnalysis .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  white !important;
-        background-color:  white !important;
+	#SentimentAnalysis a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(199, 199, 199, 0.5); 
+        background-color: rgba(199, 199, 199, 0.34); 
 	}
 
 /*conn4*/
@@ -388,19 +398,19 @@
 		background: /*#0088ff*/#0088ff; 
 	}
 	#ConnectFour {
-		color: rgba(255,255,255,0.6) !important;
+		color: rgba(199, 199, 199, 0.68); 
 	}
 	#ConnectFour a {
-		color: white !important;
+		color: white;
 	}
-	#ConnectFour .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  white !important;
-        background-color:  white !important;
+	#ConnectFour a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(199, 199, 199, 0.5); 
+        background-color: rgba(199, 199, 199, 0.34); 
 	}
 
-/*shoutbox*/
+/*shoutbox
 	.ShoutBox {
-		background: /*#283e50*/#283e50; 
+		background: #283e50; 
 	}
 	#ShoutBox {
 		color: rgba(255,255,255,0.6) !important;
@@ -408,10 +418,10 @@
 	#ShoutBox a {
 		color: white !important;
 	}
-	#ShoutBox .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  white !important;
-        background-color:  white !important;
-	}
+	#ShoutBox a:hover img {
+		box-shadow: 0px 0px 1000px 100px  white;
+        background-color:  white;
+	}*/
 
 /*tetris*/
 	.tetris {
@@ -423,9 +433,9 @@
 	#tetris a {
 		color: white !important;
 	}
-	#tetris .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  white !important;
-        background-color:  white !important;
+	#tetris a:hover img {
+		box-shadow: 0px 0px 1000px 100px  white;
+        background-color:  white;
 	}
 
 /*resnet*/
@@ -433,14 +443,14 @@
 		background: /*#b7703c*/#9e663c; 
 	}
 	#ConferenceApp {
-		color: rgba(255,255,255,0.6) !important;
+		color: rgba(199, 199, 199, 0.68); 
 	}
 	#ConferenceApp a {
-		color: white !important;
+		color: white;
 	}
-	#ConferenceApp .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  white !important;
-        background-color:  white !important;
+	#ConferenceApp a:hover img {
+		box-shadow: 0px 0px 1000px 100px rgba(199, 199, 199, 0.5); 
+        background-color: rgba(199, 199, 199, 0.34); 
 	}
 
 /*runner*/
@@ -453,7 +463,7 @@
 	#runner a {
 		color: white !important;
 	}
-	#runner .blocks .picture:hover {
-		box-shadow: 0px 0px 10px 10px  white !important;
-        background-color:  white !important;
+	#runner a:hover img {
+		box-shadow: 0px 0px 1000px 100px  white;
+        background-color:  white;
 	}
