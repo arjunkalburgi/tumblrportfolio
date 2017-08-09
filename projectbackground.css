@@ -1,469 +1,469 @@
 /*
-	on the background being a linear gradient, go to the desired colour on color-hex.com 
-	pick the colour two shades darker for the second colour.
-	OR 
-	use adobe.color.com
+    on the background being a linear gradient, go to the desired colour on color-hex.com 
+    pick the colour two shades darker for the second colour.
+    OR 
+    use adobe.color.com
 */
 
 /*squarepics*/
-	#RDFResearch img, #SentimentAnalysis img, #ConnectFour img, 
-	#ConferenceApp img, #DatabaseProject img  {
-		border-radius: initial;
-	}
+    #RDFResearch img, #SentimentAnalysis img, #ConnectFour img, 
+    #ConferenceApp img, #DatabaseProject img  {
+        border-radius: initial;
+    }
 
 /*helpmesee*/
-	.BlindGlasses {
-		background: #0CCDA8;
-	}
-	#BlindGlasses {
-		color: rgba(0, 0, 0, 0.68); 
-	}
-	#BlindGlasses a {
-		color: #CD400C;
-	}
-	#BlindGlasses a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(255, 56, 221, 0.5); 
-        background-color: rgba(255, 56, 221, 0.34);
-	}
+    .BlindGlasses {
+        background: #0CCDA8;
+    }
+    #BlindGlasses {
+        color: rgba(0, 0, 0, 0.68); 
+    }
+    #BlindGlasses a {
+        color: #CD400C;
+    }
+    #BlindGlasses a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(255, 56, 221, 0.5); 
+        background-color: rgba(255, 56, 221, 0.5);
+    }
 
 /*encmp100*/
-	.RevitalizingENCMP {
-		background: #ffc85e; 
-	}
-	#RevitalizingENCMP {
-		color: rgba(0, 0, 0, 0.68); 
-	}
-	#RevitalizingENCMP a {
-		color: rgb(0, 74, 178) !important;
-	}
-	#RevitalizingENCMP a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(205, 64, 12, 0.5); 
-        background-color: rgba(205, 64, 12, 0.34); 
-	}
+    .RevitalizingENCMP {
+        background: #ffc85e; 
+    }
+    #RevitalizingENCMP {
+        color: rgba(0, 0, 0, 0.68); 
+    }
+    #RevitalizingENCMP a {
+        color: rgb(0, 74, 178) !important;
+    }
+    #RevitalizingENCMP a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(205, 64, 12, 0.5); 
+        background-color: rgba(205, 64, 12, 0.5); 
+    }
 
 /*hacktime*/
-	.HackTime {
-		background: #16703D; 
-	}
-	#HackTime {
-		color: rgba(199, 199, 199, 0.68); 
-	}
-	#HackTime a {
-		color: rgb(255, 189, 56) !important;
-	}
-	#HackTime a img {
-		filter: sepia(100%);
-	}
-	#HackTime a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(255, 189, 56, 0.5); 
-        background-color: rgba(255, 189, 56, 0.34); 
-	}
+    .HackTime {
+        background: #16703D; 
+    }
+    #HackTime {
+        color: rgba(199, 199, 199, 0.68); 
+    }
+    #HackTime a {
+        color: rgb(255, 189, 56) !important;
+    }
+    #HackTime a img {
+        filter: sepia(100%);
+    }
+    #HackTime a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(255, 189, 56, 0.5); 
+        background-color: rgba(255, 189, 56, 0.5); 
+    }
 
 /*eceweekhacked2017*/
-	.HackEd2017 {
-		background: #53147E;
-	}
-	#HackEd2017 {
-		color: rgba(199, 199, 199, 0.68); 
-	}
-	#HackEd2017 a {
-		color: #19713F !important;
-	}
-	#HackEd2017 a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(139, 101, 36, 0.5); 
-        background-color: rgba(139, 101, 36, 0.34);
-	}
+    .HackEd2017 {
+        background: #53147E;
+    }
+    #HackEd2017 {
+        color: rgba(199, 199, 199, 0.68); 
+    }
+    #HackEd2017 a {
+        color: #19713F !important;
+    }
+    #HackEd2017 a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(139, 101, 36, 0.5); 
+        background-color: rgba(139, 101, 36, 0.5);
+    }
 
 /*AUcourses*/
-	.AUcourses {
-		background: #e4c18e; 
-	}
-	#AUcourses {
-		color: rgba(0,0,0,0.68);
-	}
-	#AUcourses a {
-		color: rgb(26,69,15) !important;
-	}
-	#AUcourses a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(144,142,228,0.5);
-        background-color: rgba(144,142,228,0.34);
-	}
+    .AUcourses {
+        background: #e4c18e; 
+    }
+    #AUcourses {
+        color: rgba(0,0,0,0.68);
+    }
+    #AUcourses a {
+        color: rgb(26,69,15) !important;
+    }
+    #AUcourses a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(144,142,228,0.5);
+        background-color: rgba(144,142,228,0.5);
+    }
 
 /*reactlessons*/
-	.ReactLessons {
-		background: #ff8f4a; 
-	}
-	#ReactLessons {
-		color: rgba(0, 0, 0, 0.68); 
-	}
-	#ReactLessons a {
-		color: #0e84a5; 
-	}
-	#ReactLessons a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(16, 175, 178, 0.5); 
-        background-color: rgba(16, 175, 178, 0.34); 
-	}
+    .ReactLessons {
+        background: #ff8f4a; 
+    }
+    #ReactLessons {
+        color: rgba(0, 0, 0, 0.68); 
+    }
+    #ReactLessons a {
+        color: #0e84a5; 
+    }
+    #ReactLessons a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(16, 175, 178, 0.5); 
+        background-color: rgba(16, 175, 178, 0.5); 
+    }
 
 /*makeover*/
-	.makeover {
-		background: #129EB2; 
-	}
-	#makeover {
-		color: rgba(199, 199, 199, 0.68); 
-	}
-	#makeover a {
-		color: #ED4F67;
-	}
-	#makeover a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(228, 193, 142, 0.5);
-        background-color: rgba(228, 193, 142, 0.34);
-	}
+    .makeover {
+        background: #129EB2; 
+    }
+    #makeover {
+        color: rgba(199, 199, 199, 0.68); 
+    }
+    #makeover a {
+        color: #ED4F67;
+    }
+    #makeover a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(228, 193, 142, 0.5);
+        background-color: rgba(228, 193, 142, 0.5);
+    }
 
 /*testingproj
-	.testingproj {
-		background: #414141; 
-	}
-	#testingproj {
-		color: rgba(255,255,255,0.5);
-	}
-	#testingproj a {
-		color: #1A3D57; 
-	}
-	#testingproj a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(199, 199, 199, 0.5); 
-        background-color: rgba(199, 199, 199, 0.34); 
-	}*/
+    .testingproj {
+        background: #414141; 
+    }
+    #testingproj {
+        color: rgba(255,255,255,0.5);
+    }
+    #testingproj a {
+        color: #1A3D57; 
+    }
+    #testingproj a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(199, 199, 199, 0.5); 
+        background-color: rgba(199, 199, 199, 0.5); 
+    }*/
 
 /*dbhospitalapp*/
-	.DatabaseProject {
-		background: #B29D7C; 
-	}
-	#DatabaseProject {
-		color: rgba(0, 0, 0, 0.68);
-	}
-	#DatabaseProject a {
-		color: #E5F4FF;
-	}
-	#DatabaseProject a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(255, 204, 203, 0.5);
-        background-color: rgba(255, 204, 203, 0.34);
-	}
+    .DatabaseProject {
+        background: #B29D7C; 
+    }
+    #DatabaseProject {
+        color: rgba(0, 0, 0, 0.68);
+    }
+    #DatabaseProject a {
+        color: #E5F4FF;
+    }
+    #DatabaseProject a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(255, 204, 203, 0.5);
+        background-color: rgba(255, 204, 203, 0.5);
+    }
 
 /*howtocompe*/
-	.HowToCompEworkshops {
-		background: #d9e6e0; 
-	}
-	#HowToCompEworkshops {
-		color: rgba(0, 0, 0, 0.68);
-	}
-	#HowToCompEworkshops a {
-		color: #81998E !important;
-	}
-	#HowToCompEworkshops a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(245, 223, 255, 0.5);
-        background-color: rgba(245, 223, 255, 0.34);
-	}
+    .HowToCompEworkshops {
+        background: #d9e6e0; 
+    }
+    #HowToCompEworkshops {
+        color: rgba(0, 0, 0, 0.68);
+    }
+    #HowToCompEworkshops a {
+        color: #81998E !important;
+    }
+    #HowToCompEworkshops a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(245, 223, 255, 0.5);
+        background-color: rgba(245, 223, 255, 0.5);
+    }
 
 /*dbnormalizerapp
-	.dbnormalizerapp {
-		background: #749B74; 
-	}
-	#dbnormalizerapp {
-		color: rgba(0,0,0,0.3);
-	}
-	#dbnormalizerapp a {
-		color: #09FDFB;
-	}
-	#dbnormalizerapp a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(199, 199, 199, 0.5);
-        background-color: rgba(199, 199, 199, 0.34);
-	}*/
+    .dbnormalizerapp {
+        background: #749B74; 
+    }
+    #dbnormalizerapp {
+        color: rgba(0,0,0,0.3);
+    }
+    #dbnormalizerapp a {
+        color: #09FDFB;
+    }
+    #dbnormalizerapp a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(199, 199, 199, 0.5);
+        background-color: rgba(199, 199, 199, 0.5);
+    }*/
 
 /*cloudycar*/
-	.CloudyCar {
-		background: #E2C3D1; 
-	}
-	#CloudyCar {
-		color: rgba(0, 0, 0, 0.68); 
-		/*color: #135FAB;*/
-	}
-	#CloudyCar a {
-		color: #135FAB;
-	}
-	#CloudyCar a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(255, 255, 255, 0.34);
+    .CloudyCar {
+        background: #E2C3D1; 
+    }
+    #CloudyCar {
+        color: rgba(0, 0, 0, 0.68); 
+        /*color: #135FAB;*/
+    }
+    #CloudyCar a {
+        color: #135FAB;
+    }
+    #CloudyCar a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(255, 255, 255, 0.5);
         background-color: rgba(255, 255, 255, 0.2);
-	}
+    }
 
 /*d3tutorial*/
-	.LearningD3 {
-		background: #7f3ea5; 
-	}
-	#LearningD3 {
-		color: rgba(199, 199, 199, 0.68);
-	}
-	#LearningD3 a {
-		color: #f5844b !important;
-	}
-	#LearningD3 a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(80, 241, 115, 0.5);
-        background-color: rgba(80, 241, 115, 0.34);
-	}
+    .LearningD3 {
+        background: #7f3ea5; 
+    }
+    #LearningD3 {
+        color: rgba(199, 199, 199, 0.68);
+    }
+    #LearningD3 a {
+        color: #f5844b !important;
+    }
+    #LearningD3 a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(80, 241, 115, 0.5);
+        background-color: rgba(80, 241, 115, 0.5);
+    }
 
 /*C301as1*/
-	.FirstAndroidProject {
-		background: #B0BEC5; 
-	}
-	#FirstAndroidProject {
-		color: rgba(0, 0, 0, 0.68); 
-	}
-	#FirstAndroidProject a {
-		color: #1F4111 !important;
-	}
-	#FirstAndroidProject a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(71, 74, 155, 0.5);
-        background-color: rgba(71, 74, 155, 0.34);
-	}
+    .FirstAndroidProject {
+        background: #B0BEC5; 
+    }
+    #FirstAndroidProject {
+        color: rgba(0, 0, 0, 0.68); 
+    }
+    #FirstAndroidProject a {
+        color: #1F4111 !important;
+    }
+    #FirstAndroidProject a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(71, 74, 155, 0.5);
+        background-color: rgba(71, 74, 155, 0.5);
+    }
 
 /*ECEW17*/
-	.ECEW17 {
-		background: #112188; 
-		background-image: url("../img/proj/proj-ecew17.png") no-repeat fixed;
-		background-image: url("../img/proj/proj-ecew17.png") no-repeat fixed, /*#112188*/#040B3B; 
-	}
-	#ECEW17 {
-		color: #ffbd38 !important;
-	}
-	#ECEW17 a {
-		color: #ffbd38 !important;
-	}
-	#ECEW17 .block .picture:hover {
-		box-shadow: 0px 0px 1000px 100px;
+    .ECEW17 {
+        background: #112188; 
+        background-image: url("../img/proj/proj-ecew17.png") no-repeat fixed;
+        background-image: url("../img/proj/proj-ecew17.png") no-repeat fixed, /*#112188*/#040B3B; 
+    }
+    #ECEW17 {
+        color: #ffbd38 !important;
+    }
+    #ECEW17 a {
+        color: #ffbd38 !important;
+    }
+    #ECEW17 .block .picture:hover {
+        box-shadow: 0px 0px 150px 100px;
         background-color:;
     }
 
 
 /*CEClub*/
-	.CEClub {
-		background: /*#1A450F*/#13330B; 
-	}
-	#CEClub {
-		color: #fff !important;
-	}
-	#CEClub a {
-		color: #fff !important;
-	}
-	#CEClub a:hover img {
-		box-shadow: 0px 0px 1000px 100px  #fff;
+    .CEClub {
+        background: /*#1A450F*/#13330B; 
+    }
+    #CEClub {
+        color: #fff !important;
+    }
+    #CEClub a {
+        color: #fff !important;
+    }
+    #CEClub a:hover img {
+        box-shadow: 0px 0px 150px 100px  #fff;
         background-color:  #fff;
-	}
+    }
 
 /*pkb*/
-	.pkb {
-		background: /*#222222*/#1b1b1b; 
-	}
-	#pkb {
-		color: #fff !important;
-	}
-	#pkb a {
-		color: #fff !important;
-	}
-	#pkb a:hover img {
-		box-shadow: 0px 0px 1000px 100px  #fff;
+    .pkb {
+        background: /*#222222*/#1b1b1b; 
+    }
+    #pkb {
+        color: #fff !important;
+    }
+    #pkb a {
+        color: #fff !important;
+    }
+    #pkb a:hover img {
+        box-shadow: 0px 0px 150px 100px  #fff;
         background-color:  #fff;
-	}
+    }
 
 /*shoutbox2*/
-	.ShoutBox {
-		background: #e0c6a7; 
-	}
-	#ShoutBox {
-		color: rgba(0, 0, 0, 0.68); 
-	}
-	#ShoutBox a {
-		color: #AD70A0;
-	}
-	#ShoutBox a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(194, 229,228, 0.5);
-        background-color: rgba(194, 229,228, 0.34);
-	}
+    .ShoutBox {
+        background: #e0c6a7; 
+    }
+    #ShoutBox {
+        color: rgba(0, 0, 0, 0.68); 
+    }
+    #ShoutBox a {
+        color: #AD70A0;
+    }
+    #ShoutBox a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(194, 229,228, 0.5);
+        background-color: rgba(194, 229,228, 0.5);
+    }
 
 /*dra*/
-	.RDFResearch {
-		background: #323232; 
-	}
-	#RDFResearch {
-		color: rgba(199, 199, 199, 0.68); 
-	}
-	#RDFResearch a {
-		color: #e8e8e8;
-	}
-	#RDFResearch a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(126,115,114, 0.5);
-        background-color: rgba(126,115,114, 0.34);
-	}
+    .RDFResearch {
+        background: #323232; 
+    }
+    #RDFResearch {
+        color: rgba(199, 199, 199, 0.68); 
+    }
+    #RDFResearch a {
+        color: #e8e8e8;
+    }
+    #RDFResearch a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(126,115,114, 0.5);
+        background-color: rgba(126,115,114, 0.5);
+    }
 
 /*fire*/
-	.FireEscape {
-		background: #984b37; 
-	}
-	#FireEscape {
-		color: rgba(0, 0, 0, 0.68); 
-	}
-	#FireEscape a {
-		color: #4B1F14;
-	}
-	#FireEscape a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(75,31,20, 0.5);
-        background-color: rgba(75,31,20, 0.34);
-	}
+    .FireEscape {
+        background: #984b37; 
+    }
+    #FireEscape {
+        color: rgba(0, 0, 0, 0.68); 
+    }
+    #FireEscape a {
+        color: #4B1F14;
+    }
+    #FireEscape a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(75,31,20, 0.5);
+        background-color: rgba(75,31,20, 0.5);
+    }
 
 /*eceweekhacked2015*/
-	.ECEWeek-HackEd2016 {
-		background: #2f355a; 
-	}
-	#ECEWeek-HackEd2016 {
-		color: rgba(199, 199, 199, 0.68); 
-	}
-	#ECEWeek-HackEd2016 a {
-		color: #ffbd38 !important;
-	}
-	#ECEWeek-HackEd2016 a:hover img {
-		box-shadow: 0px 0px 1000px 100px  #ffbd38;
+    .ECEWeek-HackEd2016 {
+        background: #2f355a; 
+    }
+    #ECEWeek-HackEd2016 {
+        color: rgba(199, 199, 199, 0.68); 
+    }
+    #ECEWeek-HackEd2016 a {
+        color: #ffbd38 !important;
+    }
+    #ECEWeek-HackEd2016 a:hover img {
+        box-shadow: 0px 0px 150px 100px  #ffbd38;
         background-color:  #ffbd38;
-	}
+    }
 
 /*ciao*/
-	.ciao {
-		background: /*#374ca5*/#374ca5; 
-	}
-	#ciao {
-		color: rgba(255,255,255,0.6) !important;
-	}
-	#ciao a {
-		color: white !important;
-	}
-	#ciao a:hover img {
-		box-shadow: 0px 0px 1000px 100px  white;
+    .ciao {
+        background: /*#374ca5*/#374ca5; 
+    }
+    #ciao {
+        color: rgba(255,255,255,0.6) !important;
+    }
+    #ciao a {
+        color: white !important;
+    }
+    #ciao a:hover img {
+        box-shadow: 0px 0px 150px 100px  white;
         background-color:  white;
-	}
+    }
 
 /*rdf*/
-	.rdf {
-		background: /*black*/#323232; 
-	}
-	#rdf {
-		color: rgba(255,255,255,0.6) !important;
-	}
-	#rdf a {
-		color: white !important;
-	}
-	#rdf a:hover img {
-		box-shadow: 0px 0px 1000px 100px  white;
+    .rdf {
+        background: /*black*/#323232; 
+    }
+    #rdf {
+        color: rgba(255,255,255,0.6) !important;
+    }
+    #rdf a {
+        color: white !important;
+    }
+    #rdf a:hover img {
+        box-shadow: 0px 0px 150px 100px  white;
         background-color:  white;
-	}
+    }
 
 /*reviews*/
-	.reviews {
-		background: /*#2c3e50*/#1e2b38; 
-	}
-	#reviews {
-		color: rgba(255,255,255,0.6) !important;
-	}
-	#reviews a {
-		color: white !important;
-	}
-	#reviews a:hover img {
-		box-shadow: 0px 0px 1000px 100px  white;
+    .reviews {
+        background: /*#2c3e50*/#1e2b38; 
+    }
+    #reviews {
+        color: rgba(255,255,255,0.6) !important;
+    }
+    #reviews a {
+        color: white !important;
+    }
+    #reviews a:hover img {
+        box-shadow: 0px 0px 150px 100px  white;
         background-color:  white;
-	}
+    }
 
 /*senti*/
-	.SentimentAnalysis {
-		background: #3BB873; 
-	}
-	#SentimentAnalysis {
-		color: rgba(199, 199, 199, 0.68); 
-	}
-	#SentimentAnalysis a {
-		color: white;
-	}
-	#SentimentAnalysis a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(199, 199, 199, 0.5); 
-        background-color: rgba(199, 199, 199, 0.34); 
-	}
+    .SentimentAnalysis {
+        background: #3BB873; 
+    }
+    #SentimentAnalysis {
+        color: rgba(199, 199, 199, 0.68); 
+    }
+    #SentimentAnalysis a {
+        color: white;
+    }
+    #SentimentAnalysis a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(199, 199, 199, 0.5); 
+        background-color: rgba(199, 199, 199, 0.5); 
+    }
 
 /*conn4*/
-	.ConnectFour {
-		background: /*#0088ff*/#0088ff; 
-	}
-	#ConnectFour {
-		color: rgba(199, 199, 199, 0.68); 
-	}
-	#ConnectFour a {
-		color: white;
-	}
-	#ConnectFour a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(199, 199, 199, 0.5); 
-        background-color: rgba(199, 199, 199, 0.34); 
-	}
+    .ConnectFour {
+        background: /*#0088ff*/#0088ff; 
+    }
+    #ConnectFour {
+        color: rgba(199, 199, 199, 0.68); 
+    }
+    #ConnectFour a {
+        color: white;
+    }
+    #ConnectFour a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(199, 199, 199, 0.5); 
+        background-color: rgba(199, 199, 199, 0.5); 
+    }
 
 /*shoutbox
-	.ShoutBox {
-		background: #283e50; 
-	}
-	#ShoutBox {
-		color: rgba(255,255,255,0.6) !important;
-	}
-	#ShoutBox a {
-		color: white !important;
-	}
-	#ShoutBox a:hover img {
-		box-shadow: 0px 0px 1000px 100px  white;
+    .ShoutBox {
+        background: #283e50; 
+    }
+    #ShoutBox {
+        color: rgba(255,255,255,0.6) !important;
+    }
+    #ShoutBox a {
+        color: white !important;
+    }
+    #ShoutBox a:hover img {
+        box-shadow: 0px 0px 150px 100px  white;
         background-color:  white;
-	}*/
+    }*/
 
 /*tetris*/
-	.tetris {
-		background: /*black*/black; 
-	}
-	#tetris {
-		color: rgba(255,255,255,0.6) !important;
-	}
-	#tetris a {
-		color: white !important;
-	}
-	#tetris a:hover img {
-		box-shadow: 0px 0px 1000px 100px  white;
+    .tetris {
+        background: /*black*/black; 
+    }
+    #tetris {
+        color: rgba(255,255,255,0.6) !important;
+    }
+    #tetris a {
+        color: white !important;
+    }
+    #tetris a:hover img {
+        box-shadow: 0px 0px 150px 100px  white;
         background-color:  white;
-	}
+    }
 
 /*resnet*/
-	.ConferenceApp {
-		background: /*#b7703c*/#9e663c; 
-	}
-	#ConferenceApp {
-		color: rgba(199, 199, 199, 0.68); 
-	}
-	#ConferenceApp a {
-		color: white;
-	}
-	#ConferenceApp a:hover img {
-		box-shadow: 0px 0px 1000px 100px rgba(199, 199, 199, 0.5); 
-        background-color: rgba(199, 199, 199, 0.34); 
-	}
+    .ConferenceApp {
+        background: /*#b7703c*/#9e663c; 
+    }
+    #ConferenceApp {
+        color: rgba(199, 199, 199, 0.68); 
+    }
+    #ConferenceApp a {
+        color: white;
+    }
+    #ConferenceApp a:hover img {
+        box-shadow: 0px 0px 150px 100px rgba(199, 199, 199, 0.5); 
+        background-color: rgba(199, 199, 199, 0.5); 
+    }
 
 /*runner*/
-	.runner {
-		background: /*#9ec2f4*/#9ec2f4; 
-	}
-	#runner {
-		color: rgba(255,255,255,0.6) !important;
-	}
-	#runner a {
-		color: white !important;
-	}
-	#runner a:hover img {
-		box-shadow: 0px 0px 1000px 100px  white;
+    .runner {
+        background: /*#9ec2f4*/#9ec2f4; 
+    }
+    #runner {
+        color: rgba(255,255,255,0.6) !important;
+    }
+    #runner a {
+        color: white !important;
+    }
+    #runner a:hover img {
+        box-shadow: 0px 0px 150px 100px  white;
         background-color:  white;
-	}
+    }
